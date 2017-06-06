@@ -1,0 +1,158 @@
+<style type="text/css">
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+img#svetlo {
+    position: absolute;
+    height: 450px;
+    width: 600px;
+    left: 5%;
+    top: 15%;
+    background-repeat: no-repeat;
+
+}
+
+p.cas   {
+    font-size: 85px;
+    color: #ffffff;
+    font-family: "Bookman Old Style";
+    position: absolute;
+    top: 0%;
+    right: 5%;
+    width: 600px;
+    margin-left: -300px;
+    text-align: center;
+	z-index: 99;
+}
+
+p.datum {
+    font-size: 50px;
+    color: white;
+    font-family: "Impact";
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    width: 600px;
+    margin-left: -300px;
+    text-align: center;
+	z-index: 99;
+}
+
+p.motto {
+    color: white;
+    position: absolute;
+    left: 3%;
+    bottom: 30%;
+    font-size: 20px;
+    font-family: "Baskerville Old Face";
+    text-align: center;
+}
+
+img.beam1 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: 100;
+    right: -200px;
+    bottom: -200px;
+    z-index: 99;
+}
+
+img.beam2 {
+	
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: 100;
+    right: -200px;
+    bottom: -200px;
+    z-index: 99;
+}
+
+img.beam3 {
+	
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: 100;
+    right: -200px;
+    bottom: -200px;
+    z-index: 99;
+}
+
+img.beam4 {
+	
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: 100;
+    right: -200px;
+    bottom: -200px;
+    z-index: 99;
+}
+
+img.lietajucamacka {
+	
+    position: absolute;
+    top: 20%;
+    left: 120%;
+    height: 250px;
+    width: 300px;
+}
+
+img.stojacamacka {
+    position: absolute;
+    left: 2%;
+    bottom: -21%;
+    height: 200px;
+    width: 125px;
+}
+
+p.pozdrav {
+    position: absolute;
+    left: 10%;
+    bottom: 15%;
+    color: white;
+    font-family: "Impact";
+    font-size: 50px;
+
+}
+
+p.podpis {
+    font-size: 25px;
+    margin-bottom: 5px;
+    color:black;
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+    z-index: 100;
+}
+
+p.nadpis1 {
+	font-size: 25px;
+	color:red;
+    position: relative;
+    margin: 5px;
+   
+}
+p.nadpis2 {
+	font-size: 25px;
+	color:red;
+    position: relative;
+    margin: 5px;
+    
+}
+
+div.loginBlok {
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	z-index: 100;
+}
+
+button.tlacitko {
+	margin: 10px;
+}
+</style>
